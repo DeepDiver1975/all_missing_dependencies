@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info>
+	<id>all_missing_dependencies</id>
+	<name>all-missing-dependencies</name>
+	<description>all-missing-dependencies</description>
+	<version>0.1</version>
+	<licence>AGPL</licence>
+	<author>Thomas Müller</author>
+	<require>7</require>
+	<dependencies>
+		<php min-version="7.0" max-version="4.3"/>
+		<database min-version="3.0">db2</database>
+		<database>mongodb</database>
+		<command os="linux">steam</command>
+		<command os="windows">notepad.exe</command>
+		<lib min-version="1.2">xml</lib>
+		<lib max-version="0.1">intl</lib>
+		<lib max-version="2.0">redis</lib>
+		<lib>curl</lib>
+		<os>Windows 3.11</os>
+		<oc min-version="12" max-version="9"/>
+	</dependencies>
+</info>
